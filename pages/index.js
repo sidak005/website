@@ -5,15 +5,15 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 p-8">
       {/* Header */}
       <header className="text-center mb-12">
-        <h1 className="text-5xl font-bold text-blue-600 mb-4">Sidak Singh</h1>
-        <p className="text-xl text-gray-700">Welcome to my personal website!</p>
+        <h1 className="text-5xl font-bold text-blue-600 mb-4">Sidak Harnoor Singh</h1>
+        <p className="text-xl text-gray-700">Welcome to my website!</p>
       </header>
 
       {/* About Section */}
       <section className="mb-12">
         <h2 className="text-3xl font-bold text-blue-600 mb-4">About Me</h2>
         <p className="text-lg text-gray-700">
-          Hi! I'm Sidak Singh, a second-year student at a top university. I'm passionate about web development, coding, and building cool projects. This website is my first step into the world of Next.js!
+          Hi! I'm Sidak Harnoor Singh, a second-year student at UNSW. I'm passionate about web development, coding, and building cool projects. 
         </p>
       </section>
 
@@ -37,7 +37,7 @@ export default function Home() {
       <section className="mb-12">
         <h2 className="text-3xl font-bold text-blue-600 mb-4">Resume</h2>
         <p className="text-lg text-gray-700 mb-4">
-          Download or view my resume to learn more about my skills and experience.
+          View my resume to learn more about my skills and experience.
         </p>
         <a
           href="/path/to/your/resume.pdf"
