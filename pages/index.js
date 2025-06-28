@@ -350,7 +350,7 @@ export default function Home() {
                   title: "Coming Soon",
                   description: "More exciting projects are in development. Stay tuned for updates!",
                   link: "#",
-                  tech: ["???", "???", "???"]
+                  tech: ["???"]
                 }
               ].map((project, index) => (
                 <motion.div
@@ -398,7 +398,7 @@ export default function Home() {
                         View Project →
                       </motion.a>
                     ) : (
-                      <span className="text-2xl">🔜</span>
+                      <span className="text-2xl">🔜🔜</span>
                     )}
                   </div>
                 </motion.div>
